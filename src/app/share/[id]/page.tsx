@@ -1,4 +1,4 @@
-import { PaperLogo } from '@/app/paper-logo';
+import { CreativeRezLogo } from '@/app/creative-rez-logo';
 import { Hero } from '@/hero/hero';
 import NextLink from 'next/link';
 import { Fragment, Suspense } from 'react';
@@ -13,15 +13,15 @@ export default async function Page({ params }: PageProps) {
   return (
     <div className="flex min-h-dvh flex-col items-center justify-between">
       <div className="relative mb-48 flex h-72 w-full items-center justify-between px-20 md:px-32">
-        <a href="https://paper.design">
-          <PaperLogo />
+        <a href="https://creativerez.xyz">
+          <CreativeRezLogo />
         </a>
 
         <span className="scale-80 pt-8 max-sm:scale-65 md:absolute md:left-1/2 md:-translate-x-1/2"></span>
 
         <span className="flex gap-24 pt-8 sm:gap-28">
-          <NextLink className="hover:underline" href="https://x.com/paper">
-            @paper
+          <NextLink className="hover:underline" href="https://x.com/creativerezz">
+            @creativerezz
           </NextLink>
         </span>
       </div>
@@ -99,9 +99,9 @@ const logos = [
     //   src: '/logos/remix.svg',
     // },
     {
-      name: 'Paper',
+      name: 'CreativeRez',
       href: '/share/01JMP2MVEWNE5CZYXW94JQME35',
-      src: '/logos/paper.svg',
+      src: '/logos/creativerez.svg',
     },
   ],
 ];
