@@ -14,7 +14,7 @@ export default async function Page({ params }: PageProps) {
     <div className="flex min-h-dvh flex-col items-center justify-between">
       <div className="relative mb-48 flex h-72 w-full items-center justify-between px-20 md:px-32">
         <a href="https://creativerez.xyz">
-          <CreativeRezLogo />
+          <CreativeRezLogo color="#ffffff"/>
         </a>
 
         <span className="scale-80 pt-8 max-sm:scale-65 md:absolute md:left-1/2 md:-translate-x-1/2"></span>

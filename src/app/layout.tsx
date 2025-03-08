@@ -6,7 +6,7 @@ export default function Layout({ children }: React.PropsWithChildren) {
   return (
     <html suppressHydrationWarning={true}>
       <head>
-        <title>Liquid Metal • CreativeRez</title>
+        <title>CreativeRez • Turn your logo into liquid metal</title>
       </head>
       <body>
         {children}
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Turn your logo into liquid metal | CreativeRez',
     description: 'Liquid metal for your logo by creativerez.xyz',
-    creator: '@creativerez',
+    creator: '@creativerezz',
     images: ['https://creativerez.xyz/og-image.png'],
   },
 };
